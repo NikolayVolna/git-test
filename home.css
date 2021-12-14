@@ -1,0 +1,245 @@
+/* hero --------------------------------------------*/
+
+.hero {
+    min-height: 100%;
+    overflow: hidden;
+    position: relative;
+    background-color: #f8f8f8;
+}
+
+.hero::before {
+    content: '';
+    position: absolute;
+    width: 102%;
+    height: 197%;
+    background-color: #3ca7d8;
+    border-radius: 45%;
+    display: block;
+    right: 0px;
+    bottom: 0px;
+    transform: translate(50%, 50%);
+}
+
+.hero__container {
+    justify-content: space-between;
+}
+
+.hero__container__left {
+    margin-top: 97px;
+    max-width: 624px;
+    width: 50%;
+}
+
+.hero__container__left__title {
+    font-weight: 900;
+    font-size: 36px;
+    color: #000000;
+    max-width: 323px;
+    margin: 0px 0px 12px;
+}
+
+.hero__container__left__text {
+    font-size: 20px;
+    line-height: 50px;
+    margin: 0px 0px 42px;
+}
+
+.hero__container__left__btn {
+    padding: 23px 95px;
+}
+
+.hero__container__left__des {
+    color: #515151;
+    max-width: 242px;
+    margin: 40px 0px 40px 0px;
+}
+
+.hero__container__left__list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 624px;
+    width: 100%;
+    margin-bottom: 50px;
+    padding: 0px;
+    list-style: none;
+    grid-gap: 15px;
+}
+
+.hero__container__left__list__item {
+    align-items: center;
+}
+
+.hero__container__left__list__item:not(:last-child) {
+    position: relative;
+}
+
+.hero__container__left__list__item:not(:last-child)::before {
+    content: '';
+    width: 1px;
+    height: 75px;
+    background-color: #eeeeee;
+    display: block;
+    position: absolute;
+    right: 0px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.hero__container__left__list__item__title {
+    font-weight: bold;
+    font-size: 72px;
+    margin: 0px;
+}
+
+.hero__container__left__list__item__text {
+    margin: 0px;
+    font-size: 24px;
+    line-height: 30px;
+    padding-left: 11px;
+}
+
+.hero__img {
+    z-index: 4;
+    width: 691px;
+    position: absolute;
+    top: 20%;
+    right: 0px;
+}
+
+
+/* /hero---------------------------------------------------- */
+
+
+/* product------------------------------------------------------------------------------------- */
+
+.product {
+    padding: 114px 0px;
+}
+
+.product__title {
+    font-weight: 900;
+    font-size: 36px;
+    line-height: .83;
+    text-align: center;
+    margin: 0px;
+}
+
+.product__grid {
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px 20px;
+}
+
+.card {
+    border: 1px solid #efefef;
+    text-align: center;
+    transition: all .4s ease-in-out;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card:first-child {
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.card:hover {
+    box-shadow: 0px 10px 30px #d5d5d5;
+}
+
+.card__title {
+    max-width: 260px;
+    margin: 21px auto 0px;
+}
+
+.card:first-child .card__title {
+    margin-top: 51px;
+}
+
+.product__contact {
+    margin-top: 65px;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.product__contact__title {
+    margin: 0px;
+    font-size: 26px;
+}
+
+.product__contact__text {
+    margin: 0px;
+    font-size: 22px;
+}
+
+.product__contact__btn {
+    margin-left: 81px;
+}
+
+.product__men {
+    position: relative;
+    background-color: #3ca7d8;
+    padding: 90px 71px 66px;
+    margin: 154px 0px 0px;
+}
+
+.product__men__left {
+    color: #fff;
+    max-width: 490px;
+}
+
+.product__men__left__title {
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 1.02;
+    margin: 0px 0px 11px;
+}
+
+.product__men__left__text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #d3e8e0;
+    margin: 0px;
+}
+
+.product__men__left__btn {
+    margin-top: 17px;
+}
+
+.product__men__img {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+
+
+/* /product----------------------------------------------------------------------------------------- */
+
+
+/* service-------------------------------------------------------------------------------------------- */
+
+.service {
+    background-color: #3ca7d8;
+}
+
+
+/* /service---------------------------------------------------------------------------------------------- */
+
+.service__title {
+    color: #fff;
+    text-align: center;
+    padding-top: 81px;
+}
+
+.service__title__span {
+    color: red;
+}
+
+.service__card {
+    width: 285px;
+    background-color: #fff;
+}
