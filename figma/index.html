@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>figma</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="global.css">
+    <link rel="stylesheet" href="home.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__container d-flex container ">
+            <a href="" class="header__container__logo">
+                <img src="icons/Лого 2.png" alt="logo">
+            </a>
+            <div class="header__container__item d-flex">
+                <img class="header__img" src="icons/check.png" alt="point">
+                <p>Ваш город:</p>
+                <select class="header__select" name="" id="">
+                    <option>Алматы</option>
+                    <option>Бишкек</option> 
+                </select>
+            </div>
+            <div class="header__container__item d-flex">
+                <img class="header__img" src="icons/clock.png" alt="time">
+                <div>
+                    <p>Время работы</p>
+                    <p class="font-w-900">С 9:30 до 18:00 Пн-Пт</p>
+                </div>
+            </div>
+            <div class="header__container__item d-flex">
+                <img class="header__img" src="icons/phone-call.png" alt="tel">
+                <div>
+                    <a class="header__container__item__tel" href="tel:+78632036048">+78632036048</a>
+                    <a class="header__container__item__tel" href="tel:+78632037033">+78632037033</a>
+                </div>
+            </div>
+            <a class="header__container__btn-contact btn btn-blue" href="#">Заказать звонок</a>
+        </div>
+    </header>
+    <main>
+        <section class="hero bg-c">
+            <div class="hero__container container d-flex">
+                <div class="hero__container__left">
+                    <h1 class="hero__container__left__title">Сервисный центр
+                        <span class="c-blue">INDESIT</span> в Алматы
+                    </h1>
+                    <p class="hero__container__left__text">Обходитесь без лишних затрат</p>
+                    <button class="hero__container__left__btn btn btn-blue">Вызвать мастера</button>
+                    <p class="hero__container__left__des"><span class="c-red">*</span>Выезд и диагностика бесплатно при условии ремонта</p>
+                    <ul class="hero__container__left__list ">
+                        <li class="hero__container__left__list__item d-flex">
+                            <h3 class="hero__container__left__list__item__title c-blue">0</h3>
+                            <div>
+                                <p class="hero__container__left__list__item__text font-w-900">₸</p>
+                                <p class="hero__container__left__list__item__text">диагностика</p>
+                            </div>
+                        </li>
+                        <li class="hero__container__left__list__item d-flex">
+                            <h3 class="hero__container__left__list__item__title c-blue">1</h3>
+                            <div>
+                                <p class="hero__container__left__list__item__text font-w-900">день</p>
+                                <p class="hero__container__left__list__item__text">ремонта</p>
+                            </div>
+                        </li>
+                        <li class="hero__container__left__list__item d-flex">
+                            <h3 class="hero__container__left__list__item__title c-blue">3</h3>
+                            <div>
+                                <p class="hero__container__left__list__item__text font-w-900">года</p>
+                                <p class="hero__container__left__list__item__text">гарантии</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <img class="hero__img" src="./img/Group 2.png" alt="man">
+        </section>
+
+        <section class="product">
+            <div class="container">
+                <h2 class="product__title">Ремонт любых побутовой техники INDEZIT</h2>
+                <div class="product__grid">
+                    <div class="card">
+                        <img class="card__img" src="./img/card1.png" alt="repair of washing machines" loading="lazy">
+                        <h2 class="card__title">Ремонт стиральных машин</h2>
+                    </div>
+                    <div class="card">
+                        <img class="card__img" src="./img/вытяжка.png" alt="hoods" loading="lazy">
+                        <h2 class="card__title">Вытяжки</h2>
+                    </div>
+                    <div class="card">
+                        <img class="card__img" src="./img/посудомойка.png" alt="dishwasher" loading="lazy">
+                        <h2 class="card__title">Посудомойка</h2>
+                    </div>
+                    <div class="card">
+                        <img class="card__img" src="./img/пелисос.png" alt="vacuum cleaner" loading="lazy">
+                        <h2 class="card__title">Пылисос</h2>
+                    </div>
+                    <div class="card">
+                        <img class="card__img" src="./img/варочная панель.png" alt="hob" loading="lazy">
+                        <h2 class="card__title">Варочные панели</h2>
+                    </div>
+                </div>
+                <div class="product__contact d-flex">
+                    <div>
+                        <h4 class="product__contact__title">Не нашли свой продукт в списке, или остались вопросы?</h4>
+                        <p class="product__contact__text">Свяжитесь с менеджером по телефону <a href="+77780651246"> +7 (778) 065-12-46</a> или</p>
+                    </div>
+                    <button class="product__contact__btn btn btn-blue">Заказать звонок</button>
+                </div>
+                <div class="product__men">
+                    <div class="product__men__left">
+                        <h2 class="product__men__left__title">Заказать бесплатный выезд мастера за 30 мин</h2>
+                        <p class="product__men__left__text">Выезд мастера и диагностика бесплатно, при условии ремонта, Мы следим за качеством облуживания. К вам приедет мастер с опытом работы не менее пяти лет. У нас быстро, от 30 минут выезд мастера</p>
+                        <button class="product__men__left__btn btn btn-red">Заказать звонок</button>
+                    </div>
+                    <img src="./img/men.png" class="product__men__img" alt="men" loading="lazy">
+                </div>
+            </div>
+        </section>
+
+        <section class="service">
+            <div class="container">
+                <h2 class="service__title">Сервис <span class="service__title__span">INDEZIT</span>предлагает лучшие цены</h2>
+                <div class="service__grid">
+                    <div class="service__card">
+                        <p>Ремонт микроволновки</p>
+                        <p>Замена слюды, магнетрона, восстановление кнопок и др</p>
+                        <p>ОТ 2500 ₸.</p>
+                    </div>
+                    <div class="service__card">
+                        <p>Ремонт микроволновки</p>
+                        <p>Замена слюды, магнетрона, восстановление кнопок и др</p>
+                        <p>ОТ 2500 ₸.</p>
+                    </div>
+                    <div class="service__card">
+                        <p>Ремонт микроволновки</p>
+                        <p>Замена слюды, магнетрона, восстановление кнопок и др</p>
+                        <p>ОТ 2500 ₸.</p>
+                    </div>
+                    <div class="service__card">
+                        <p>Ремонт микроволновки</p>
+                        <p>Замена слюды, магнетрона, восстановление кнопок и др</p>
+                        <p>ОТ 2500 ₸.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
