@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>figma</title>
+    <title>Indezit</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
@@ -17,10 +17,10 @@
     <header class="header">
         <div class="header__container d-flex container ">
             <a href="" class="header__container__logo">
-                <img src="/icons/Лого 2.png" alt="logo">
+                <img src="./icons/Лого 2.png" alt="logo">
             </a>
             <div class="header__container__item d-flex">
-                <img class="header__img" src="/icons/check.png" alt="point">
+                <img class="header__img" src="./icons/check.png" alt="point">
                 <p>Ваш город:</p>
                 <select class="header__select" name="" id="">
                     <option>Алматы</option>
@@ -28,20 +28,20 @@
                 </select>
             </div>
             <div class="header__container__item d-flex">
-                <img class="header__img" src="/icons/clock.png" alt="time">
+                <img class="header__img" src="./icons/clock.png" alt="time">
                 <div>
                     <p>Время работы</p>
                     <p class="font-w-900">С 9:30 до 18:00 Пн-Пт</p>
                 </div>
             </div>
             <div class="header__container__item d-flex">
-                <img class="header__img" src="/icons/phone-call.png" alt="tel">
+                <img class="header__img" src="./icons/phone-call.png" alt="tel">
                 <div>
                     <a class="header__container__item__tel" href="tel:+78632036048">+78632036048</a>
                     <a class="header__container__item__tel" href="tel:+78632037033">+78632037033</a>
                 </div>
             </div>
-            <a class="header__container__btn-contact btn btn-blue" href="#">Заказать звонок</a>
+            <a class="btn btn-blue" href="#">Заказать звонок</a>
         </div>
     </header>
     <main>
@@ -130,29 +130,245 @@
                 <h2 class="service__title">Сервис <span class="service__title__span">INDEZIT</span>предлагает лучшие цены</h2>
                 <div class="service__grid">
                     <div class="service__card">
-                        <p>Ремонт микроволновки</p>
-                        <p>Замена слюды, магнетрона, восстановление кнопок и др</p>
-                        <p>ОТ 2500 ₸.</p>
+                        <p class="service__card__title">Ремонт микроволновки</p>
+                        <p class="service__card__text">Замена слюды, магнетрона, восстановление кнопок и др</p>
+                        <p class="service__card__price">ОТ 2500 ₸.</p>
                     </div>
                     <div class="service__card">
-                        <p>Ремонт микроволновки</p>
-                        <p>Замена слюды, магнетрона, восстановление кнопок и др</p>
-                        <p>ОТ 2500 ₸.</p>
+                        <p class="service__card__title">Ремонт пылисоса</p>
+                        <p class="service__card__text">Замена или восстановление шланга, схемы управления, двигателя и пр. </p>
+                        <p class="service__card__price">ОТ 4000 ₸.</p>
                     </div>
                     <div class="service__card">
-                        <p>Ремонт микроволновки</p>
-                        <p>Замена слюды, магнетрона, восстановление кнопок и др</p>
-                        <p>ОТ 2500 ₸.</p>
+                        <p class="service__card__title">Ремонт аудиотехники</p>
+                        <p class="service__card__text">Колонки, домашние кинотеатры, музыкальные центры и др. видыр</p>
+                        <p class="service__card__price">ОТ 4500 ₸.</p>
                     </div>
                     <div class="service__card">
-                        <p>Ремонт микроволновки</p>
-                        <p>Замена слюды, магнетрона, восстановление кнопок и др</p>
-                        <p>ОТ 2500 ₸.</p>
+                        <p class="service__card__title">Ремонт микроволновки</p>
+                        <p class="service__card__text">Замена слюды, магнетрона, восстановление кнопок и др</p>
+                        <p class="service__card__price">ОТ 2500 ₸.</p>
+                    </div>
+                    <div class="service__card">
+                        <p class="service__card__title">Ремонт микроволновки</p>
+                        <p class="service__card__text">Замена слюды, магнетрона, восстановление кнопок и др</p>
+                        <p class="service__card__price">ОТ 2500 ₸.</p>
+                    </div>
+                    <div class="service__card__master">
+                        <img class="service__card__master-img" src="./img/sp-ok-plumber-min-560x660 1.png" alt="master">
+                        <p class="service__card__master__title">Выезд мастера</p>
+                        <p class="service__card__master__text">В удобное для Вас время. На дом или в офис!</p>
+                        <p class="service__card__master__price">БЕСПЛАТНО</p>
+                    </div>
+                    <div class="service__card__diagnostics">
+                        <img class="service__card__diagnostics-img" src="./img/6414573-1569396312 3.png" alt="diagnostics">
+                        <p class="service__card__diagnostics__title">Диагностика</p>
+                        <p class="service__card__diagnostics__text">С ипользованием современного оборудования</p>
+                        <p class="service__card__diagnostics__price">БЕСПЛАТНО</p>
+                    </div>
+                    <div class="service__card__warranty">
+                        <img class="service__card__warranty-img" src="./img/proverca_coda_ 2.png" alt="warranty">
+                        <p class="service__card__warranty__title">Расширенная гарантия</p>
+                        <p class="service__card__warranty__text">На все запчасти и выполненные услуги</p>
+                        <p class="service__card__warranty__price">БЕСПЛАТНО</p>
                     </div>
                 </div>
             </div>
         </section>
+
+        <section class="scheme__work container">
+            <h2 class="scheme__work__title">Схема работы</h2>
+            <div class="scheme__work__grid">
+                <div class="scheme__work__card">
+                    <div>
+                        <p class="scheme__work__card__step">1 ШАГ</p>
+                        <img class="scheme__work__card-img" src="./icons/step1 1.png" alt="consultation">
+                    </div>
+                    <div>
+                        <p class="scheme__work__card__title">Консультация</p>
+                        <p class="scheme__work__card__text">Персональный менеджер ответит на все ваши вопросы и будет держать вас в курсе всех этапов работ</p>
+                    </div>
+                </div>
+                <div class="scheme__work__card">
+                    <div>
+                        <p class="scheme__work__card__step">2 ШАГ</p>
+                        <img class="scheme__work__card-img" src="./icons/step2 (1) 1.png" alt="delivery">
+                    </div>
+                    <div>
+                        <p class="scheme__work__card__title">Доставка</p>
+                        <p class="scheme__work__card__text">Курьер приедет в течении 1 часа или мы можем принять устройство в сервисе</p>
+                    </div>
+                </div>
+                <div class="scheme__work__card">
+                    <div>
+                        <p class="scheme__work__card__step">3 ШАГ</p>
+                        <img class="scheme__work__card-img" src="./icons/step3 1.png" alt="diagnostics">
+                    </div>
+                    <div>
+                        <p class="scheme__work__card__title">Диагностика</p>
+                        <p class="scheme__work__card__text">Осуществим диагностику за счет компании, даже если вы откажетесь от ремонтае
+                        </p>
+                    </div>
+                </div>
+                <div class="scheme__work__card">
+                    <div>
+                        <p class="scheme__work__card__step">4 ШАГ</p>
+                        <img class="scheme__work__card-img" src="./icons/step4 1.png" alt="agreement">
+                    </div>
+                    <div>
+                        <p class="scheme__work__card__title">Согласование</p>
+                        <p class="scheme__work__card__text">Персональный менеджер согласует с вами сроки и стоимость ремонта
+                        </p>
+                    </div>
+                </div>
+                <div class="scheme__work__card">
+                    <div>
+                        <p class="scheme__work__card__step">5 ШАГ</p>
+                        <img class="scheme__work__card-img" src="./icons/step5 1.png" alt="package">
+                    </div>
+                    <div>
+                        <p class="scheme__work__card__title">Выдача</p>
+                        <p class="scheme__work__card__text">Бесплатно доставим устройство к вам домой или вы можете забрать его сами
+                        </p>
+                    </div>
+                </div>
+                <div class="scheme__work__card">
+                    <div>
+                        <p class="scheme__work__card__step">6 ШАГ</p>
+                        <img class="scheme__work__card-img" src="./icons/step6 1.png" alt="payment">
+                    </div>
+                    <div>
+                        <p class="scheme__work__card__title">Оплата</p>
+                        <p class="scheme__work__card__text">Оплата производится после ремонта и проверки устройства клиентом
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <section class="sale">
+            <div class="sale__block ">
+                <h2 class="sale__block__title">Получите скидку 15% прямо сейчас!
+                </h2>
+                <p class="sale__block__text">Вы выбираете LG, а мы в знак благодарности дарим Вам скидку 15% на все виды ремонтных работ в нашем центре!
+                </p>
+                <button class="sale__block__btn btn btn-red">Заказать звонок</button>
+
+
+                <img src="./img/sp-ok-plumber-min-560x660 2.png" class="sale__img__one" alt="men" loading="lazy">
+                <img src="./img/card1.png" class="sale__img__two" alt="washing machine" loading="lazy">
+                <img src="./img/503845_images_224829792 2.png" class="sale__img__three " alt="gas stove" loading="lazy">
+            </div>
+        </section>
+
+        <section class="feedback  container">
+            <h2 class="feedback__title ">Отзывы</h2>
+            <div class="feedback__grid__card">
+                <div class="feedback__card">
+                    <img class="feedback__card__img" src="./img/images1.png" alt="">
+                    <p class="feedback__card__title">Константин</p>
+                    <p class="feedback__card__text">С сайтом и сервисом этой компании всё просто отлично! Качество товара соответствует заявленному. Буду и впреть пользоваться товарами с этого сайта, и смело могу рекомендовать его людям.</p>
+                </div>
+                <div class="feedback__card">
+                    <img class="feedback__card__img" src="./img/images2.png" alt="">
+                    <p class="feedback__card__title">Алина</p>
+                    <p class="feedback__card__text">Хочу выразить благодарность компании за качественно выполненную работу по ремонту стиральной машины! Все было качественно и оперативно: от принятия заявки диспетчером до работы мастера! </p>
+                </div>
+                <div class="feedback__card">
+                    <img class="feedback__card__img" src="./img/images3.png" alt="">
+                    <p class="feedback__card__title">Дмитрий</p>
+                    <p class="feedback__card__text">Благодарны за качественное и профессиональное обслуживание, быстро откликнулись. Мастер Сергей приехал в назначенное время, сделал все хорошо</p>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="questions">
+            <h2 class="questions__title">Ответы и вопросы</h2>
+            <form class="questions__select container" action="">
+                <div>
+                    <select class="questions__answer" name="" id="">
+                    <option>Как узнать стоимость ремонта?</option>
+                    <option>Позвоните нам по телефону</option>
+                    <option>Напишите нам</option>
+                </select>
+                </div>
+                <div>
+                    <select class="questions__answer" name="" id="">
+                    <option>Сколько будет стоить диагностика?</option>
+                    <option>Постоянным клиентам бесплатно</option>
+                    <option>Позвоните нам и мы проконсультируем Вас</option>
+                </select>
+                </div>
+                <div>
+                    <select class="questions__answer" name="" id="">
+                    <option>Даете ли вы гарантию на ремонт?</option>
+                    <option>Наша гарантия на ремонт составляет 3 месяца</option>
+                    <option>Напишите нам и мы проконсультируем Вас</option>
+                </select>
+                </div>
+                <div>
+                    <select class="questions__answer" name="" id="">
+                    <option>Не появятся ли проблемы после ремонта?</option>
+                    <option>После ремонта устройства проходят контроль качества выполненной работы по 47 пунктам.</option>
+                    <option>После ремонта вы получите устройство с работоспособностью в 100%.</option>
+                </select>
+                </div>
+                <div>
+                    <select class="questions__answer" name="" id="">
+                    <option>Можно ли вызвать мастера на дом или офис?</option>
+                    <option>Да наши мастера выезжают на любой объек в черте города</option>
+                    <option>Позвоните нам и мы проконсультируем Вас</option>
+                </select>
+                </div>
+                <div>
+                    <select class="questions__answer questions__answer-margin " name="" id="">
+                    <option>Выезжаете ли вы в другие города?</option>
+                    <option>На данный момент мы работаем только в двух городах:Алматы и Бишкек</option>
+                    <option>Позвоните нам и мы проконсультируем Вас</option>
+                </select>
+                </div>
+            </form>
+        </section>
+
+        <section class="contacts__map">
+            <div class="contacts">
+                <h2 class="contacts__title">Контакты</h2>
+                <div class="contacts__container__item d-flex">
+                    <img class="contacts__img" src="./icons/check.png" alt="point">
+                    <p>Ваш город:</p>
+                    <select class="contacts__select" name="" id="">
+                        <option>Алматы</option>
+                        <option>Бишкек</option> 
+                    </select>
+                </div>
+                <div class="contacts__container__item d-flex">
+                    <img class="contacts__img" src="./icons/clock.png" alt="time">
+                    <div>
+                        <p>Время работы</p>
+                        <p class="font-w-900">С 9:30 до 18:00 Пн-Пт</p>
+                    </div>
+                </div>
+                <div class="contacts__container__item d-flex">
+                    <img class="contacts__img" src="./icons/phone-call.png" alt="tel">
+                    <div>
+                        <a class="contacts__container__item__tel" href="tel:+78632036048">+78632036048</a>
+                        <a class="contacts__container__item__tel" href="tel:+78632037033">+78632037033</a>
+                    </div>
+                </div>
+                <a class="contacts__button btn btn-blue" href="#">Заказать звонок</a>
+            </div>
+            </div>
+            <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m19!1m8!1m3!1d5812.854259886516!2d76.85977361401363!3d43.242469240568326!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x38836996bbbf9baf%3A0x5a0cfd86c5c918d6!2z0YPQu9C40YbQsCDQo9GC0LXQs9C10L0g0JHQsNGC0YvRgNCwLCDQkNC70LzQsNGC0YsgMDUwMDYyLCDQmtCw0LfQsNGF0YHRgtCw0L0!3m2!1d43.244555999999996!2d76.8557901!5e0!3m2!1sru!2sua!4v1642967056150!5m2!1sru!2sua"
+                width="600" height="570" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </section>
     </main>
+    <footer class="footer ">
+        <div class="footer__info container d-flex">
+            <p class="footer__text ">Ремонт бытовой техники в Алматы <br> Обслуживание по Европейским стандартам качества</p>
+            <p class="footer__text ">Все права защищены, Алматы 2019</p>
+        </div>
+    </footer>
 </body>
 
 </html>
